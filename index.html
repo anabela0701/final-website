@@ -27,11 +27,86 @@
     })
 </script>
 <style>
+    ul#horizontal-list {
+        min-width: 696px;
+        list-style: none;
+        padding-top: 20px;
+    }
+
+    ul#horizontal-list li {
+        display: inline;
+    }
+
+    .intro {
+        background-color: #2D6F9B;
+        border-radius: 15px;
+
+    }
+
+    .diff {
+        background-color: #2D6F9B;
+        border-radius: 15px;
+    }
+
+    .standards {
+        background-color: #2D6F9B;
+        border-radius: 15px;
+    }
+
+    h1 {
+        color: #7999BF;
+    }
+
+    #landing {
+        display: table;
+        width: 100%;
+        height: 100%;
+        background: url("NYU.jpg") no-repeat center;
+        background-size: cover;
+
+    }
+
+    @media (min-width: 768px) {
+        h1 {
+            font-size: 35px;
+        }
+        h2 {
+            font-size: 25px;
+        }
+        h3 {
+            font-size: 30px;
+        }
+
+    }
+
+    @media (min-width: 992px) {
+        h1 {
+            font-size: 40px;
+        }
+        h2 {
+            font-size: 30px;
+        }
+    }
+
+
+    @media (min-width: 1200px) {
+        h1 {
+            font-size: 45px;
+        }
+        h2 {
+            font-size: 35px;
+        }
+
+    }
 </style>
 
 <body>
-    <h1>NEW YORK COLLEGE INFO</h1>
-    <h4>All The Information You need about New York Colleges.</h4>
+    <div class="landing">
+        <div class="text-vertical-center">
+            <h1>NEW YORK COLLEGE INFO</h1>
+            <h4>All The Information You need about New York Colleges.</h4>
+        </div>
+    </div>
     <div class="container">
         <div class="row intro">
             <div class="col-sm-4 suny ">
@@ -41,13 +116,13 @@
                 </div>
             </div>
             <div class="col-sm-4 cuny">
-                <h3 id ="h1-college">CUNY</h3>
+                <h3 id="h1-college">CUNY</h3>
                 <div>
                     <p>CUNY, stands for City University of New York, these are collges that are located in the five Boroughs and can be either community or four year. There are 24 CUNY schools. </p>
                 </div>
             </div>
             <div class="col-sm-4 private">
-                <h3 id = "h1-college">Private</h3>
+                <h3 id="h1-college">Private</h3>
                 <div>
                     <p>Private universities, are universities that are run of of private grants. They are not run by the state. These colleges tend to be more expensive but eaiser to get finical aid for</p>
                 </div>
@@ -57,55 +132,64 @@
     <hr>
 
     <div class="differences">
-
+        <h1>THE DIFFERENCES</h1>
         <div class="col-md-6 diff">
-            <h1>THE DIFFERENCES</h1>
+
             <p>
                 The differences between the CUNY and SUNY system,is the location of the school and price of schools. CUNY schools ate located in the NYC area/ Five boroughs of new york while SUNYs are located all over New york. SUNY schools tend to cost more that the
                 CUNY schools this is because majority of students in the CUNY schools are comutters, meaning they arent paying for the room and board making
 
             </p>
         </div>
-        <div class="col-md-6 standards">
+        <div>
             <h1>Standards</h1>
-            <p>
-                <ul>
-                    <h6>cuny standards</h6>
-                    <li>
-                        SAT: 900-1470
-                    </li>
-                    <li>
-                        ACT:17-32
-                    </li>
-                    <li>
-                        GPA:76-95
-                    </li>
-                    <h6>suny standards</h6>
-                    <li>
-                        SAT:860-1480
-                    </li>
-                    <li>
-                        ACT:17-33
-                    </li>
-                    <li>
-                        GPA:77-97
-                    </li>
-                    <h6>private standards</h6>
-                    <li>
-                        SAT:970-1580
-                    </li>
-                    <li>
-                        GPA:90-92
-                    </li>
-                </ul>
-            </p>
+            <div class="col-md-6 standards">
+
+                <p>
+                    <ul>
+                        <h6>cuny standards</h6>
+                        <li>
+                            SAT: 900-1470
+                        </li>
+                        <li>
+                            ACT:17-32
+                        </li>
+                        <li>
+                            GPA:76-95
+                        </li>
+                        <h6>suny standards</h6>
+                        <li>
+                            SAT:860-1480
+                        </li>
+                        <li>
+                            ACT:17-33
+                        </li>
+                        <li>
+                            GPA:77-97
+                        </li>
+                        <h6>private standards</h6>
+                        <li>
+                            SAT:970-1580
+                        </li>
+                        <li>
+                            GPA:90-92
+                        </li>
+                    </ul>
+                </p>
+            </div>
         </div>
     </div>
     <div>
         <H1>TOP COLLEGES IN NY</H1>
         <div>
-            <div>
-
+            <div class="col-sm-4">
+                content
+            </div>
+            <div class="col-sm-4">
+                content
+            </div>
+            <div class="col-sm-4">
+                content
             </div>
         </div>
     </div>
