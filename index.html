@@ -13,7 +13,6 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="style.css">
 </head>
 <script>
     $(function() {
@@ -27,10 +26,82 @@
         });
     })
 </script>
+<style>
+    ul#horizontal-list {
+        min-width: 696px;
+        list-style: none;
+        padding-top: 20px;
+    }
 
+    ul#horizontal-list li {
+        display: inline;
+    }
+
+    .intro {
+        background-color: #2D6F9B;
+        border-radius: 15px;
+
+    }
+
+    .diff {
+        background-color: #2D6F9B;
+        border-radius: 15px;
+    }
+
+    .standards {
+        background-color: #2D6F9B;
+        border-radius: 15px;
+    }
+
+    h1 {
+        color: #7999BF;
+    }
+
+    #landing {
+        display: table;
+        width: 100%;
+        height: 100%;
+        background: url("NYU.jpg") no-repeat center;
+        background-size: cover;
+
+    }
+
+    @media (min-width: 768px) {
+        h1 {
+            font-size: 35px;
+        }
+        h2 {
+            font-size: 25px;
+        }
+        h3 {
+            font-size: 30px;
+        }
+
+    }
+
+    @media (min-width: 992px) {
+        h1 {
+            font-size: 40px;
+        }
+        h2 {
+            font-size: 30px;
+        }
+    }
+
+
+    @media (min-width: 1200px) {
+        h1 {
+            font-size: 45px;
+        }
+        h2 {
+            font-size: 35px;
+        }
+
+    }
+</style>
 
 <body>
-    <div class="landing">
+    <div class="landing" id="home">
         <div class="text-vertical-center">
             <h1>NEW YORK COLLEGE INFO</h1>
             <h4>All The Information You need about New York Colleges.</h4>
@@ -112,13 +183,137 @@
         <H1>TOP COLLEGES IN NY</H1>
         <div>
             <div class="col-sm-4">
-                content
+                The top Privates are
+                <ol>
+                    <li>
+                        Columbia Universtiy
+                        <ul>
+                            <li>SAT Score:1470-1530</li>
+                            <li>Tuition:57,208</li>
+                            <li>Aceeptance Rate:6%</li>
+                            <li> Undergradate:32,429</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Cornell
+                        <ul>
+                            <li>SAT score:1010-12000</li>
+                            <li> Acceptance Rate:35.3%</li>
+                            <li>Tuition:6330 USD</li>
+                            <li>Undergraduate:14,406</li>
+
+
+                        </ul>
+
+                    </li>
+                    <li>
+                        New York University:
+
+                        <ul>
+                            <li>
+                                SAT Score:1250-1460
+                            </li>
+                            <li>
+                                Tuition:51,828 USD (in-state)
+                            </li>
+                            <li>
+                                Acceptance Rate:33%
+                            </li>
+                            <li>
+                                Undergraduate:26,135
+                            </li>
+                        </ul>
+
+
+                    </li>
+                </ol>
             </div>
             <div class="col-sm-4">
-                content
+                The top CUNYs are
+                <ol>
+                    <li>
+                        <ul>
+                            <li>SAT Score:940-1330</li>
+                            <li>Tuition:6,330/li>
+                                <li>Aceeptance Rate:27.9</li>
+                                <li> Undergradate:18090/li>
+                        </ul>
+                        </li>
+                        <li>
+                            John Jay of Criminal Justice:
+                            <ul>
+                                <li>
+                                    SAT Score:890-1070
+                                </li>
+                                <li>
+                                    Tuition:6,530 USD (in-state)
+                                </li>
+                                <li>
+                                    Acceptance Rate:52%
+                                </li>
+                                <li>
+                                    Undergraduate:13000
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            Brooklyn College:
+                            <ul>
+                                <li>SAT score:1010-12000</li>
+                                <li> Acceptance Rate:35.3%</li>
+                                <li>Tuition:6330 USD</li>
+                                <li>Undergraduate:14,406</li>
+
+
+                            </ul>
+
+
+                        </li>
+                </ol>
             </div>
             <div class="col-sm-4">
-                content
+                The top SUNYs are
+                <ol>
+                    <li>
+                        University at Buffalo,SUNY
+                        <ul>
+                            <li>SAT Score:1070-1270</li>
+                            <li>Tuition:15,987/li>
+                                <li>Aceeptance Rate:59</li>
+                                <li> Undergradate:20,411/li>
+                        </ul>
+                        </li>
+                        <li>
+                            Binghamton University
+                            <ul>
+                                <li>
+                                    SAT Score:1230-1400
+                                </li>
+                                <li>
+                                    Tuition:16,540 USD (in-state)
+                                </li>
+                                <li>
+                                    Acceptance Rate:41%
+                                </li>
+                                <li>
+                                    Undergraduate:13632
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            Stony Brook Universtiy:
+                            <ul>
+                                <li>SAT score:1150-1370</li>
+                                <li> Acceptance Rate:41%</li>
+                                <li>Tuition:13615 USD</li>
+                                <li>Undergraduate:16,831</li>
+
+
+                            </ul>
+
+
+                        </li>
+                </ol>
             </div>
         </div>
     </div>
