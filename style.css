@@ -9,19 +9,23 @@
     }
 
     .intro {
-        background-color: #2D6F9B;
+        background-color: lightGray;
         border-radius: 15px;
 
     }
 
     .diff {
-        background-color: #2D6F9B;
+        background-color: lightGray;
         border-radius: 15px;
     }
 
     .standards {
-        background-color: #2D6F9B;
+        background-color: lightGray;
         border-radius: 15px;
+    }
+    #top{
+        background-color:lightGray;
+        border-radius:15px;
     }
 
     h1 {
